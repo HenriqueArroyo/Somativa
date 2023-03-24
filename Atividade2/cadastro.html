@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="menu">
+        <FORM ACTION="/Atividade2/index.html" METHOD="POST" ENCTYPE="text/plain" NAME="cadastro"> 
+            <br>
+        <center>    <h1> Cadastro</h1><br>
+                
+            <label for="nome">Nome completo</label>
+            <INPUT class="input" TYPE="TEXT" NAME="nome" SIZE="35" placeholder="Informe seu Nome"><br><br>
+                <label for="cpf">CPF</label>
+            <INPUT class="input" TYPE="TEXT" NAME="cpf" SIZE="35" placeholder="Informe seu CPF"><br><br>
+                <label for="endereço">Endereço</label>
+            <INPUT class="input" TYPE="TEXT" NAME="endereço" SIZE="35" placeholder="Informe seu Endereço"> <br> <br>
+                <label for="email">Email</label>
+            <INPUT class="input" TYPE="TEXT" NAME="email" SIZE="35" placeholder="Informe seu Email"> <br> 
+            <label for="senha">Senha</label>
+<input type="password" name="senha" id="senha" placeholder="Informe sua Senha"><br><br>
+            <label for="Níveis">Níveis</label>
+         <SELECT name="Níveis">
+                <OPTION VALUE="Casa">Casa
+                <OPTION VALUE="Apartamento"> Apartamento
+                <OPTION VALUE="Sítio"> Sítio
+            </SELECT><br><br>
+            <label for="Status">Status</label>
+            <SELECT name="Status">
+                <OPTION VALUE="Ativo">Ativo
+                <OPTION VALUE="Inativo">Inativo
+            </SELECT>
+            <br><br><br><br><br>
+
+            <INPUT TYPE="SUBMIT" VALUE="Enviar os dados">
+            <INPUT TYPE="RESET" VALUE="Limpar os dados">
+            </center>
+        </FORM><br>
+    
+         <form action="/Atividade2/index.html">
+            <input class="voltar" type="submit" value="VOLTAR">
+         </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,121,9,1) 71%, rgba(163,255,192,1) 100%);
+    
+}
+
+.menu {
+    background: rgb(227, 250, 221);
+    width: 400px;
+    height: 650px;
+    margin-top: 150px;
+    
+}
+
+.voltar {
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    left: 1800px;
+    bottom: 20px;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.voltar {
+	background: rgb(196, 245, 218);
+	color: #fff;
+	border: 1px solid #000000;
+	border-radius: 15px;
+	text-shadow: none;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.voltar:hover {
+	background: #02325a;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	text-shadow: none;
+    font-size: larger;
+}
